@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     padding-top: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -72,9 +74,22 @@ hr{
     align-items: center;
 }
 
-.main-content .home .text-content {
+.main-content .home .icon-container ul {
+    list-style: none;
+}
+.main-content .home .icon-container ul li {
+    float: left;
+    width: 50px;
+    height: 50px;
+    line-height: 75px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    font-size: x-large;
     
 }
+
+
 .main-content .home .text-content button {
     padding: 10px;
     margin-top: 10px;
@@ -97,10 +112,7 @@ hr{
     border: 0cap;
     
 }
-.main-content .home .profile-pic {
-   
 
-}
 .main-content .home .profile-pic img {
     height: 300px;
     width: 300px;
@@ -210,8 +222,10 @@ hr{
     border-style: none;
     font-size: normal;
     padding: 10px;
-    background-color: rgba(255, 192, 203, 0.863);
+    background-color: rgba(0, 0, 0, 0.692);
     font-weight: bold;
+    color: white;
+    border-radius: 1px;
 }
 .main-content .contact .form form input[type=submit]:hover {
     background-color: black;
@@ -221,4 +235,6 @@ hr{
 
 .main-content .contact h1 {
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
