@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content {
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.content .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.content .header .logo {
+    margin-left: 10px;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    
+}
+.nav-list a {
+    margin: 10px 5px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight:bold;
+}
+
+.nav-list a:hover {
+    background-color: black;
+    color: pink;
+}
+hr{
+    height: 5px;
+    background-color: black;
+    width: 70%;
+    
+}
+.hr {
+    margin: 20px auto;
+}
+/* Home content*/
+.main-content .home {
+  
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: center;
+}
+
+.main-content .home .text-content {
+    
+}
+.main-content .home .text-content button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+    color: black; 
+}
+
+.main-content .home .text-content button a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-content .home .text-content button:hover {
+   
+    background-color: pink;
+    border-radius: 5px;
+    color: black;
+    border-color: black;
+    border: 0cap;
+    
+}
+.main-content .home .profile-pic {
+   
+
+}
+.main-content .home .profile-pic img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+
+
+/* About content*/
+.main-content .about {
+    justify-content: space-evenly;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.main-content .about .aboutme-skill {
+    display: flex;
+    width: 100%;
+    justify-content:center;
+   
+    flex-wrap: wrap;
+}
+
+.main-content .about .about-me {
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.066);
+    padding: 50px;
+}
+.main-content .about .about-me p {
+    text-align: justify;
+    
+}
+
+.main-content .about .short-text {
+    width: 500px;
+    background-color: rgba(255, 192, 203, 0.571);
+    padding: 50px;
+}
+
+
+
+/* Projects content*/
+.main-content .projects {
+    background-color: pink;
+    
+}
+
+/* Contact content*/
+.main-content .contact {
+    background-color: cadetblue;
+}
